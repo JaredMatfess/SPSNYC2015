@@ -1,7 +1,7 @@
 ﻿<script src = 'https://sp.slalom.com/ourfirm/offices/Hartford/dte/pcdemos/siteassets/jquery.js'></script>
 <script type='text/javascript'>
 
-	var spsNYCURL = getURLParameterByName("Source");
+    var spsNYCURL = getURLParameterByName("Source");
     var spsNYCreferrer = spsNYCURL.substring(spsNYCURL.lastIndexOf('/') + 1, spsNYCURL.lastIndexOf('.'));
     var spsNYCbaseURL = location.href;
 	var checkActor =  getURLParameterByName("Actor");
